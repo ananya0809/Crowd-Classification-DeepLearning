@@ -32,7 +32,7 @@ The idea is to implement classification of crowd images into 3 classes namely 'S
 
 Idea Representation:
 
-![Idea]("C:\Users\anany\Desktop\minor-new\readme images\Frame 28.png")
+![Idea]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/Frame%2028.png")
 
 ### Training
 ##### Part 1:
@@ -41,17 +41,17 @@ Idea Representation:
 
 Model Architecture Representation:
 
-![MCNN Architecture]("C:\Users\anany\Desktop\minor-new\readme images\MCNN.png")
+![MCNN Architecture]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/MCNN.png")
 
 3. The generation of heatmap is obtained from the reference code using ```pyHeatMap``` and stored in a sub-directory.
 
 Image Before Heatmap Generation
 
-![Pre-HeatMap]("C:\Users\anany\Desktop\minor-new\readme images\heat_B_2_pre_51.png")
+![Pre-HeatMap]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/heat_B_2_pre_51.png")
 
-Image After Heatmap Generation
+Actual Image After Heatmap Generation
 
-![Act-HeatMap]("C:\Users\anany\Desktop\minor-new\readme images\heat_B_2_act_51.png")
+![Act-HeatMap]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/heat_B_2_act_51.png")
 
 ##### Part 2:
 1. Now that the dataset has been modified from simple crowd images to heatmap generated images, the (x,y) coordinates of each image which are pre-present in a ```.mat``` file available in the ```data_subset``` folder are taken into account to implement the Decision Tree Classifier.
@@ -59,11 +59,11 @@ Image After Heatmap Generation
 
 K-Means Clustering with K=3 (an example)
 
-![Pre-Cluster]("C:\Users\anany\Desktop\minor-new\readme images\kmeans0.png")
+![Pre-Cluster]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/kmeans0.png")
 
-![Cluster-Plot]("C:\Users\anany\Desktop\minor-new\readme images\kmeans1.png")
+![Cluster-Plot]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/kmeans1.png")
 
-![Image-Clustered]("C:\Users\anany\Desktop\minor-new\readme images\kmeans2.png")
+![Image-Clustered]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/kmeans2.png")
 
 3. On the obtained clusters a connectivity model approach is implemented where each datapoint containing (x,y) coordinates from 1st cluster is measured in distance from every other datapoint in the 2nd cluster. Thus for K=5, 10 pairs of clusters are obtained where the distance between every datapoint is calculated using ```Euclidean Distance```.
 4. From the obtained distances, the minimum distance is taken and stored in a ```.csv``` file, that is generated to map minimum distances per cluster pair to its respective image.
@@ -81,7 +81,7 @@ NOTE: K-Means is an unsupervised machine learning technique that is unable to ge
 
 Output containing Confusion Matrix, Accuracy and the Report for trained model:
 
-![Accuracy-Train]("C:\Users\anany\Desktop\minor-new\readme images\Screenshot 2022-05-20 at 10.11.56 AM.png")
+![Accuracy-Train]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/Screenshot%202022-05-20%20at%2010.11.56%20AM.png")
 
 ### Testing and Validation
 ##### Part 4:
@@ -94,11 +94,11 @@ NOTE: Here the heatmap obtained consists of multiple datapoints containing respe
 
 Before Processing
 
-![Pre-Heatmap]("C:\Users\anany\Desktop\minor-new\readme images\output.png")
+![Pre-Heatmap]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/output.png")
 
 After Processing
 
-![Post-Heatmap]("C:\Users\anany\Desktop\minor-new\readme images\output1.png")
+![Post-Heatmap]("https://github.com/ananya0809/Crowd-Classification-DeepLearning/blob/main/readme_images/output1.png")
 
 ##### Part 5:
 1. This part is purely testing the model.
