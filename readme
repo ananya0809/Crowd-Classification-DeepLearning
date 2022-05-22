@@ -1,7 +1,0 @@
-Dataset from :
-https://paperswithcode.com/dataset/shanghaitech
-
-Things to do:
-- Create a notebook to make use of tensorflow inference to generate heatmap
-- Figure out a way to find X and Y coords of the heads in image
-- Use this X and Y data set to classify the image
