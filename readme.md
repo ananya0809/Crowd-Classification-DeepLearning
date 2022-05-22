@@ -2,7 +2,7 @@
 ## Research Oriented Minor Project
 
 ### Problem Statement:
-A classification model that can classify a given image of a crowd into Sparse or Medium or Dense based on crowd density using Deep Leanring methodologies.
+A classification model that can classify a given image of a crowd into Sparse or Medium or Dense based on crowd density using Deep Learning methodologies.
 
 ### Reference Links: 
 
