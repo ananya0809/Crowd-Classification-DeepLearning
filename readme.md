@@ -33,7 +33,7 @@ The idea is to implement classification of crowd images into 3 classes namely 'S
 
 Idea Representation:
 
-![Idea]("readme_images/Frame_28.png")
+![Idea]("[readme_images/Frame_28.png](https://github.com/ananya0809/Crowd-Classification-DeepLearning/raw/main/readme_images/Frame%2026.png)")
 
 ### Training
 ##### Part 1:
