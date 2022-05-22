@@ -18,9 +18,10 @@ A classification model that can classify a given image of a crowd into Sparse or
 ```git clone git@github.com:ananya0809/Crowd-Classification-DeepLearning.git```
 
 This will setup a remote working directory to store files and dataset in.
+
 2. Download the [dataset](https://www.kaggle.com/datasets/tthien/shanghaitech) available for ShanghaiTech.
-3. [Import libraries](https://github.com/oldj/pyheatmap) to draw a heatmap from a random dummy data of any crowd dataset.
-4. Reset path variables code block as mentioned in ```final.ipynb``` to the path variable on your system as per requirement.
+4. [Import libraries](https://github.com/oldj/pyheatmap) to draw a heatmap from a random dummy data of any crowd dataset.
+5. Reset path variables code block as mentioned in ```final.ipynb``` to the path variable on your system as per requirement.
 
 ### Data Preparation
 1. The folder ```data_preparation``` has 2 main ```MATLAB``` scripts which parses the input images and generates patches of image for training and test data.
