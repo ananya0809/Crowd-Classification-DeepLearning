@@ -46,7 +46,7 @@ Model Architecture Representation:
 
 3. The generation of heatmap is obtained from the reference code using ```pyHeatMap``` and stored in a sub-directory.
 
-Image Before Heatmap Generation
+Image Pre-Processing for Heatmap Generation
 
 ![Pre-HeatMap](https://raw.githubusercontent.com/ananya0809/Crowd-Classification-DeepLearning/main/readme_images/heat_B_2_pre_51.png)
 
